@@ -162,5 +162,6 @@ class Game:
 
             Game().run()
 
+print('hello world')
 
 
