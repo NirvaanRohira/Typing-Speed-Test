@@ -1,7 +1,7 @@
 # ;speed test game
 # importlib pygame
 import pygame
-from pygame.locals import import *
+from pygame.locals import *
 import sys
 import time
 import random
@@ -29,7 +29,7 @@ class Game:
         self.open_img = pygame.transform.scale(self.open_img, (self.w,self.h))
 
         self.bg = pygame.image.load('istockphoto-1061222280-170667a.jpeg')
-        self.bg = pygame.transform.scale(self.bg.(500,750))
+        self.bg = pygame.transform.scale(self.bg, (500,750))
 
         self.screen = pygame.display.set_mode((self.w,self.h))
         pygame.display.set_caption('Typing Speed Test')
